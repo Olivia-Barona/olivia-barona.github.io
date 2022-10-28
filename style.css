@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif ;
+    padding: 0;
+    margin: 0;
+    font-size: larger;
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+
+}
+li {
+  list-style-type: none;
+
+}
+h2 {
+    
+    text-align: center;
+    padding-top: 30px;
+    font-size: xx-large;
+
+}
+a {
+text-decoration: none;
+color: black;
+  ;
+
+}    
+/*************************navbar**************/
+nav {
+overflow: hidden;
+background: color #fffae1; ;
+position: fixed;
+width: 100%;
+opacity: 0.9;
+}
+header li
+{
+    float: right;
+    font-size: 1.2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+
+}
+#logo{
+    font-family:'Dancing Script', cursive;
+    font-weight: bold;
+    text-align:lefts;
+   
+
+}
+/* ********************IMAGEPRINCIPALE********** */
+#imagePrincipale
+{
+font-size: 2em;
+padding-top: 60px;
+background: url(media/image1.jpeg) no-repeat fixed 50% 50%;
+background-size: cover;
+height: 799px;
+}
+h1{
+font-family: 'Dancing Scripy' cursive ;
+text-align: center;
+color: antiquewhite;
+font-size: 6em;
+margin-top: 110px;
+text-shadow: 1px 3px 2px black;
+
+}
+#premierTrait{
+ height: 1px;
+ width: 25%;
+ margin: -3px auto;
+ background-color: #fffae1;
+
+}
+h3{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+
+}
+/* ******************presentation************/
+#presentation{
+    background-color: #fffae1;
+    padding: 10px 0px 100px 0;
+}
+#textIntro{
+    padding: 0px 20%;
+    
+}
+#prestations {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-between;
+  padding:30px 10%;
+
+}
+.imagesPrestations h4 {
+ 
+    text-align: left;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+
+}
+.imagesPrestations img {
+    border-radius: 10px;
+  
+}
+/* ***********************new*************/
+#coaching {
+height: 20000;  
+background-color: #fffae1;  
+padding: 1px 2%;
+
+}
+#coaching h2 {
+  padding-top: 60px;  
+}
+#coaching li {
+    margin:  65px 100px 0 100px;
+    
+}
+/* *************************footer***************** */
+footer{
+    background-color: #542302;
+   color: #fffae1;
+   padding: 20px 0 10px 0; 
+   text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+margin: 1px 0;
+font-size: 1.2em;
+font-family: "Advent Pro" , sans-serif;
+border-radius: 8px;
+
+}
+textarea{
+    height: 120px;
+
+}
+button{
+    font-size: 1.5em;
+    background-color: #fffae1;
+
+}
+button:hover{
+    background-color: #e55039;
+    color: #fffae1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+#deuxiemeTrait {
+  height: 1px;
+  width: 75;
+  background-color:#fffae1;
+  margin: 60px auto;
+ 
+
+  }
+
+
+  #copyrightEtIcons{
+    display: flex:;
+  margin-bottom: 20px;
+  padding: 0 10%;}
+  #copyright
+  {
+width:50% ;
+text-align: left;
+color: #fffae1;
+
+  }
+#icons {
+    width: 50%;
+    text-align: right;
+
+}
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+font-size: 1.3em;
+color: #fffae1;
+}
+#icons a:hover {
+    transform:  scale(1.5);
+    transition: 0.1s;
+
+}
+#barre
+{
+position: fixed;
+top: 0px;
+width: 100%;
+background: #FFFFFF;
+}
+#textIntro
+{
+text-decoration-color: black;
+
+
+
+}
+.
+}
+.image {
+float: right;
+margin: 0 15px 15px 0;}
+h4
+{
+
+        text-align: left;
+    font-size: 30px;
+    margin: 15px;
+    font-weight: 300;
+}
+
+p
+{
+    font-size: x-;
+
+}
+.tesr
+{
+    font-size: larger;
+    text-align: justify;
+}
+.flotte {
+float: left;
+margin: 0 15px 15px 0;
+
+}
+
+.tete
+{
+    text-align: justify;
+font-size: x-large;
+
+
+}
+.test
+{
+     font-family:'Open Sans';
+     text-align:justify ;
+     font-size: x-large;
+}
+li 
+{
+ text-align: justify; 
+}
+
+.cerz
+{
+    text-align:left;
+    font-size: x-large;
+}
+@media (max-width: 1188px){
+.vote { font-size: 100px
+}
+}
+@media (max-width: 1275px){ 
+.tete , .test {
+text-align: left !important ;
+
+}
+}
+@media (max-width: 573px){ 
+#imagePrincipale {
+width: 100% !important;
+height: auto !important;
+}
+}
